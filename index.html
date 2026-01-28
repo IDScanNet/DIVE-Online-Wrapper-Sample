@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIVE Online wrapper</title>
+  </head>
+  <body>
+    <div id="app">
+      <main>
+        <form id="login-wrapper" class="login">
+          <div class="login__input-container">
+            <label class="login__label" for="first_name">First Name</label>
+            <input type="text" name="firstName" class="input" id="first_name" />
+          </div>
+
+          <div class="login__input-container">
+            <label class="login__label" for="last_name">Last Name</label>
+            <input type="text" name="lastName" class="input" id="last_name" />
+          </div>
+          <div class="login__input-container">
+            <label class="login__label" for="phone">Phone (No '(' or ')')</label>
+            <input type="text" name="phone" class="input" id="phone" />
+          </div>
+          <div class="login__input-container">
+            <label class="login__label" for="email">Email</label>
+            <input type="text" name="email" class="input" id="email" />
+          </div>
+        </form>
+        <div id="videoCapturingEl" class="d-none">
+
+        </div>
+      </main>
+      <div class="buttons">
+        <button class="button" id="login-button">Create Applicant</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
