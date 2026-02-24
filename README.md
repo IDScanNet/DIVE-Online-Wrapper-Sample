@@ -89,9 +89,11 @@ $ npm install @idscan/onboarding
 
 3.) Paste them where you want to load them at runtime (for example, the public directory)
 
-4.) Set up Tokens in the .env file
+4.) Adjust the configurations `chunkPublicPath` and/or `networkUrl` as needed based on step 3.
 
-5.) Deploy
+5.) Set up Tokens in the .env file
+
+6.) Deploy
 ```
   npm run dev
 ```
