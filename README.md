@@ -79,4 +79,19 @@ Example : api/v2/public/Validation
   
 ## Deploying App to localhost
 
+1.) Install the latest version of the @idscan/onboarding
+
+```
+$ npm install @idscan/onboarding
+```
+
+2.) Navigate to node_modules\@idscan\onboarding\dist\networks and copy the entire networks folder.
+
+3.) Paste them where you want to load them at runtime (for example, the public directory)
+
+4.) Set up Tokens in the .env file
+
+5.) Deploy
+```
   npm run dev
+```
