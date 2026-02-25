@@ -41,7 +41,7 @@ export default (applicantId: string) => {
     fixFrontOrientAfterUpload: true,
     isShowDocumentTypeSelect: true,
     wrapperSettings: {
-      showQRCode: true,
+      showQrCode: true,
       showConsentForm: true,
       consentText: 'This can be customized consent text',
       checkboxText: "customized checkbox text",
